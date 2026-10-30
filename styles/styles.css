@@ -5,6 +5,17 @@ body {
     margin: 0;
     padding: 0;
 }
+nav{
+    background-color: #252525;
+    color:  lightgray;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+}
+h1{
+    color: aquamarine;
+}
 header{
     background-color: #252525;
     color:  lightgray;
@@ -15,8 +26,18 @@ header{
 main img{
     max-width: 150px;
     height: auto;
-}
+    border: 1px solid #cccccc70;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
 p{padding: 0;}
+aside{
+    width: 200px;
+    margin: 0 auto;
+    border: 1px solid #cccccc70;
+    padding: 20px;
+    background-color: #fff;
+    color:aquamarine;
+}
 aside img{
     max-width: 200px;
     height: auto;
