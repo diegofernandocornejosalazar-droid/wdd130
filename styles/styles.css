@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #252525;
+    color:  lightgray;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+main img{
+    max-width: 150px;
+    height: auto;
+}
+p{padding: 0;}
+aside img{
+    max-width: 200px;
+    height: auto;
+}
+main {
+    max-width: 800px;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #cccccc70;
+    padding: 20px;
+    background-color: #fff;
+    color:aquamarine;
+    text-align: center;}
+footer {
+margin-top: 20px;
+border-top: 1px solid #000;
+text-align:center;
+}
