@@ -5,7 +5,6 @@
 --accent2-color: #FFD700;
 --heading-font: 'Arial', sans-serif;
 --body-font: 'Verdana', sans-serif;
-* { margin: 0; padding: 0; box-sizing: border-box; }
 body{
  font-family: var(--body-font);
  color: var(--accent1-color);}
@@ -32,7 +31,7 @@ nav,p,section,article{
 position: relative;
 }
 .hero article{
-    position: relative;
+    position: absolute;
 }
 .hero img{
     display: block;
@@ -64,3 +63,4 @@ article{
     float: right;
     width: 125px;
 }
+* { margin: 0; padding: 0; box-sizing: border-box; }
