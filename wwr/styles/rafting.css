@@ -1,8 +1,8 @@
 :root{
 --primary-color: #0d4b33;
---secondary-color: #c45210;
---accent1-color: #8ed68e;
---accent2-color: #ebcc20;
+--secondary-color: #a35b31;
+--accent1-color: #66a766;
+--accent2-color: #6d1d9b;
 --heading-font: 'Arial', sans-serif;
 --body-font: 'Verdana', sans-serif;
 body{
@@ -39,7 +39,7 @@ nav,p,section,article{
 }
 
 .hero{
-position: absolute;
+position: relative;
 }
 .hero article{
     position: absolute;
