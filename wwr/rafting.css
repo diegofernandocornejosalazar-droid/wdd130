@@ -1,8 +1,8 @@
 :root{
---primary-color: #0d4b33;
---secondary-color: #e07130;
---accent1-color: #538653;
---accent2-color: #7d3da1;
+--primary-color: #184603;
+--secondary-color: #e46216;
+--accent1-color: #467955;
+--accent2-color: #e08e12;
 --heading-font: 'Arial', sans-serif;
 --body-font: 'Verdana', sans-serif;
 body{
@@ -67,7 +67,7 @@ article{
     text-align: justify;
     opacity: 0.9;
     color: var(--accent2-color);
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
 }
 .section{
     display: grid;
