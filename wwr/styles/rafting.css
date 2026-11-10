@@ -1,6 +1,6 @@
 :root{
---primary-color: #315f42;
---secondary-color: #eb9a03;
+--primary-color: hsl(142, 32%, 28%);
+--secondary-color: #f8f7f4;
 --accent1-color: #467955;
 --accent2-color: #ffffff;
 --heading-font: 'Arial', sans-serif;
