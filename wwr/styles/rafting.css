@@ -1,8 +1,8 @@
 :root{
---primary-color: #705135;
---secondary-color: #e9833a;
+--primary-color: #315f42;
+--secondary-color: #afadad;
 --accent1-color: #467955;
---accent2-color: #4625bd;
+--accent2-color: #ffffff;
 --heading-font: 'Arial', sans-serif;
 --body-font: 'Verdana', sans-serif;
 body{
@@ -17,6 +17,9 @@ nav{
     background-color: var(--primary-color);
     color: var(--accent2-color);
     padding: 8px;
+}
+nav a{
+    color: var(--accent2-color);
 }
 header, main, footer {
  grid-template-columns: 120px 1fr 1fr;
@@ -55,7 +58,7 @@ h1{
     left: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.5;
+    opacity: 1;
     background-color: var(--accent1-color);
     color: #1d1c1c;
     transform: translate(-50%, -50%);
@@ -65,7 +68,7 @@ article{
     position: absolute;
     padding: 16px;
     text-align: justify;
-    opacity: 0.9;
+    opacity: 1;
     color: var(--accent2-color);
     background-color: var(--accent1-color);
 }
