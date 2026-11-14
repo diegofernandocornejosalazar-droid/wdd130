@@ -18,6 +18,7 @@ nav{
     padding: 8px;
 }
 header{
+    position: relative;
     display: grid;
     grid-template-columns: 200px 1fr;
 }
@@ -39,6 +40,9 @@ header, main, footer {
  background-color: var(--primary-color);
  color:var(--accent2-color);
 }
+footer{
+    grid-template-columns: 1fr auto;
+}
 h1,h2{
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -53,7 +57,8 @@ nav,p,section,article{
 .socialmedia{
     display: flex;
     justify-content: flex-end;
-    align-items: right;
+    align-items: center;
+    justify-self: end;
     gap: 8px;
 }
 
