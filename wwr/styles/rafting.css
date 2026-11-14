@@ -53,7 +53,7 @@ nav,p,section,article{
 .socialmedia{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: right;
     gap: 8px;
 }
 
