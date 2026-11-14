@@ -25,10 +25,6 @@ header{
 header nav{
     grid-column: 2;
 }
-footer{
-    display: grid;
-    grid-template-columns: 1fr auto;
-}
 nav a{
     color: var(--accent2-color);
 }
@@ -36,6 +32,10 @@ header, main, footer {
  grid-template-columns: 120px 1fr 1fr;
  align-items: center;
  width: 840px;
+ footer{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
  margin :0 auto;
  background-color: var(--primary-color);
  color:var(--accent2-color);
