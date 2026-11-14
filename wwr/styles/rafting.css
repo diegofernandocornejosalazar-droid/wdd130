@@ -10,13 +10,23 @@ body{
  color: var(--accent1-color);}
 }
 nav{
-    grid-column: 1 / -1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--primary-color);
     color: var(--accent2-color);
     padding: 8px;
+}
+header{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+header nav{
+    grid-column: 2;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr auto;
 }
 nav a{
     color: var(--accent2-color);
@@ -39,6 +49,12 @@ nav,p,section,article{
 }
 .socialmedia a{
     text-decoration: none;
+}
+.socialmedia{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
 }
 
 .hero{
