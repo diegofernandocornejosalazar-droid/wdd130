@@ -25,10 +25,6 @@ header{
 header nav{
     grid-column: 2;
 }
-footer{
-    display: grid;
-    grid-template-columns: 1fr auto;
-}
 nav a{
     color: var(--accent2-color);
 }
