@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact website for the rafting page, this page contains information about the employees of the company">
+    <meta name="author" content="Diego Salazar">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact White Waters Rafting Site</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Logo" width="200">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a class="current" href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-intro">
+            <h1>White Water Rafting Company</h1>
+            <p>123 Main Boulevard<br>Westland, Virginia</p>
+            <p>+1 123 567 890<br>info@whitewaters.com</p>
+        </section>
+        <section class="contact-content" aria-label="Map and contact form">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12641.345542868336!2d-76.292847!3d37.61777444999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ba0e15427caa0b%3A0x7496c2a89ac56dbd!2sWestland%2C%20Virginia%2022578%2C%20EE.%20UU.!5e0!3m2!1ses!2spe!4v1794954777460!5m2!1ses!2spe" title="Map to White Waters Rafting" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <form class="contact-form">
+                <div class="form-row">
+                    <label for="contact-name">Name</label>
+                    <input type="text" id="contact-name" name="name" autocomplete="name" placeholder="Placeholder" required>
+                </div>
+                <div class="form-row">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" name="email" autocomplete="email" placeholder="Placeholder" required>
+                </div>
+                <fieldset class="purpose-field">
+                    <legend>Message Purpose</legend>
+                    <label><input type="radio" name="purpose" value="general-inquiry" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation-question"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website-suggestion"> Website Suggestion</label>
+                </fieldset>
+                <div class="form-row message-row">
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" name="message" rows="4" placeholder="Type here" required></textarea>
+                </div>
+                <label class="newsletter-option">
+                    <input type="checkbox" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+        <section class="employee-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-list">
+            <figure>
+                <img src="images/employee.jpg" alt="Amanda Wellington" width="200">
+                <figcaption>Amanda Wellington</figcaption>
+            </figure>
+            <figure>
+                <img src="images/william.jpg" alt="William O'Higgins" width="200">
+                <figcaption>William O'Higgins</figcaption>
+            </figure>
+            <figure>
+                <img src="images/leslie.jpg" alt="Leslie Shang" width="200">
+                <figcaption>Leslie Shang</figcaption>
+            </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 White Waters Diego Salazar Arequipa Peru</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Logo" width="30">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="Linkedin Logo" width="30">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Logo" width="30">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
