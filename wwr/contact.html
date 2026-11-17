@@ -6,7 +6,7 @@
     <meta name="description" content="Contact website for the rafting page, this page contains information about the employees of the company">
     <meta name="author" content="Diego Salazar">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>Contact White Waters Rafting Site</title>
+    <title>Contact Us White Waters Rafting Site</title>
 </head>
 <body>
     <header>
@@ -39,16 +39,16 @@
                 </div>
                 <fieldset class="purpose-field">
                     <legend>Message Purpose</legend>
-                    <label><input type="radio" name="purpose" value="general-inquiry" required> General Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation-question"> Reservation Question</label>
-                    <label><input type="radio" name="purpose" value="website-suggestion"> Website Suggestion</label>
+                    <label for="purpose-general"><input type="radio" id="purpose-general" name="purpose" value="general-inquiry" required> General Inquiry</label>
+                    <label for="purpose-reservation"><input type="radio" id="purpose-reservation" name="purpose" value="reservation-question"> Reservation Question</label>
+                    <label for="purpose-suggestion"><input type="radio" id="purpose-suggestion" name="purpose" value="website-suggestion"> Website Suggestion</label>
                 </fieldset>
                 <div class="form-row message-row">
                     <label for="contact-message">Message</label>
                     <textarea id="contact-message" name="message" rows="4" placeholder="Type here" required></textarea>
                 </div>
-                <label class="newsletter-option">
-                    <input type="checkbox" name="newsletter">
+                <label class="newsletter-option" for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
                     Please subscribe me to the monthly newsletter
                 </label>
                 <button type="submit">Get in Touch!</button>
